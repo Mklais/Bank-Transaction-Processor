@@ -12,12 +12,14 @@ Application parses transaction logs, validates transaction integrity, and restor
 - Security Checks: Includes validation of card authenticity and transaction integrity based on BIN mappings and user-specific rules.
 - Output Generation: Produces detailed reports on updated user balances and transaction outcomes, aiding in transparency and auditing.
 
-- Main Components
+## Main Components
 - User Management: Handles user data, including balance checks and status management.
 - Transaction Validation: Filters and validates transactions based on predefined rules and conditions.
 - BIN Mapping Verification: Validates debit and credit card transactions against BIN ranges and types.
 - Report Generation: Outputs the results in CSV format, detailing every processed transaction and updated user balances.
 
+### Project
+The project is done without any 3rd party libraries, only utilized what is available in the JDK.
 ---
 
 ## How to run
