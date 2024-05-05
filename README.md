@@ -1,5 +1,25 @@
 # Marten Kustav Klais - Bank Teldrassil
 
+## Bank Teldrassil
+Java application designed to process and reconstruct customer financial transaction from raw data files into a consistent state.
+Application parses transaction logs, validates transaction integrity, and restores accurate customer balance sheets.
+
+---
+
+## Features
+- Transaction Processing: Reads frin stryctyred CSV fukes ti oricess nukuibs if trabsactuib recirds efficiently.
+- Compliance and Validation: Ensures all transactions comply with busineess rules, such as verifying user statuses, transaction types, and payment methods.
+- Security Checks: Includes validation of card authenticity and transaction integrity based on BIN mappings and user-specific rules.
+- Output Generation: Produces detailed reports on updated user balances and transaction outcomes, aiding in transparency and auditing.
+
+- Main Components
+- User Management: Handles user data, including balance checks and status management.
+- Transaction Validation: Filters and validates transactions based on predefined rules and conditions.
+- BIN Mapping Verification: Validates debit and credit card transactions against BIN ranges and types.
+- Report Generation: Outputs the results in CSV format, detailing every processed transaction and updated user balances.
+
+---
+
 ## How to run
 Run application with providing paths to INPUT files (Users, Transactions, BinMappings) and OUTPUT files (Balances, Events) in the following order:
 Users, Transactions, BinMappings, Balances, Events.
