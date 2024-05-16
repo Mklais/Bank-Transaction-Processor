@@ -7,7 +7,7 @@ Application parses transaction logs, validates transaction integrity, and restor
 ---
 
 ## Features
-- Transaction Processing: Reads frin stryctyred CSV fukes ti oricess nukuibs if trabsactuib recirds efficiently.
+- Transaction Processing: Reads from structured CSV files to process transaction records efficiently.
 - Compliance and Validation: Ensures all transactions comply with busineess rules, such as verifying user statuses, transaction types, and payment methods.
 - Security Checks: Includes validation of card authenticity and transaction integrity based on BIN mappings and user-specific rules.
 - Output Generation: Produces detailed reports on updated user balances and transaction outcomes, aiding in transparency and auditing.
