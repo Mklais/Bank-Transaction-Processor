@@ -19,7 +19,8 @@ Application parses transaction logs, validates transaction integrity, and restor
 - Report Generation: Outputs the results in CSV format, detailing every processed transaction and updated user balances.
 
 ### Project
-The project is done without any 3rd party libraries, only utilized what is available in the JDK.
+#### The project is done without any 3rd party libraries, only utilized what is available in the JDK.
+
 ---
 
 ## How to run
